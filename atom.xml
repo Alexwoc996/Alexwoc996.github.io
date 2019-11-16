@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="https://www.w3.org/2005/Atom">
-  <title>李立坤的博客</title>
+  <title>李立坤の博客</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-15T14:49:44.510Z</updated>
+  <updated>2019-11-15T09:14:40.011Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,74 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>牛皮</title>
-    <link href="http://yoursite.com/2019/11/15/%E7%89%9B%E7%9A%AE/"/>
-    <id>http://yoursite.com/2019/11/15/%E7%89%9B%E7%9A%AE/</id>
-    <published>2019-11-15T14:49:44.507Z</published>
-    <updated>2019-11-15T14:49:44.510Z</updated>
-    
-    <content type="html"><![CDATA[<p>[toc]</p><h1 id="牛皮"><a href="#牛皮" class="headerlink" title="牛皮"></a>牛皮</h1><h2 id="牛逼"><a href="#牛逼" class="headerlink" title="牛逼"></a>牛逼</h2><h3 id="大佬大佬"><a href="#大佬大佬" class="headerlink" title="大佬大佬"></a>大佬大佬</h3><h4 id="强啊老哥"><a href="#强啊老哥" class="headerlink" title="强啊老哥"></a>强啊老哥</h4>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;[toc]&lt;/p&gt;
-&lt;h1 id=&quot;牛皮&quot;&gt;&lt;a href=&quot;#牛皮&quot; class=&quot;headerlink&quot; title=&quot;牛皮&quot;&gt;&lt;/a&gt;牛皮&lt;/h1&gt;&lt;h2 id=&quot;牛逼&quot;&gt;&lt;a href=&quot;#牛逼&quot; class=&quot;headerlink&quot; title=&quot;牛逼&quot;&gt;&lt;/a&gt;
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>first</title>
-    <link href="http://yoursite.com/2019/11/15/first/"/>
-    <id>http://yoursite.com/2019/11/15/first/</id>
-    <published>2019-11-15T14:17:20.710Z</published>
-    <updated>2019-11-15T14:45:27.190Z</updated>
-    
-    <content type="html"><![CDATA[<p>[TOC]</p><h1 id="施蒂利克发哈睡觉了开发框架三代"><a href="#施蒂利克发哈睡觉了开发框架三代" class="headerlink" title="施蒂利克发哈睡觉了开发框架三代"></a>施蒂利克发哈睡觉了开发框架三代</h1><h2 id="施蒂利克发哈睡觉了开发框架三代-1"><a href="#施蒂利克发哈睡觉了开发框架三代-1" class="headerlink" title="施蒂利克发哈睡觉了开发框架三代"></a>施蒂利克发哈睡觉了开发框架三代</h2><h3 id="施蒂利克发哈睡觉了开发框架三代-2"><a href="#施蒂利克发哈睡觉了开发框架三代-2" class="headerlink" title="施蒂利克发哈睡觉了开发框架三代"></a>施蒂利克发哈睡觉了开发框架三代</h3><h4 id="施蒂利克发哈睡觉了开发框架三代-3"><a href="#施蒂利克发哈睡觉了开发框架三代-3" class="headerlink" title="施蒂利克发哈睡觉了开发框架三代"></a>施蒂利克发哈睡觉了开发框架三代</h4>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;[TOC]&lt;/p&gt;
-&lt;h1 id=&quot;施蒂利克发哈睡觉了开发框架三代&quot;&gt;&lt;a href=&quot;#施蒂利克发哈睡觉了开发框架三代&quot; class=&quot;headerlink&quot; title=&quot;施蒂利克发哈睡觉了开发框架三代&quot;&gt;&lt;/a&gt;施蒂利克发哈睡觉了开发框架三代&lt;/h1&gt;&lt;h2 id=&quot;
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>&#39;my-first-blog&#39;</title>
-    <link href="http://yoursite.com/2019/11/15/my-first-blog/"/>
-    <id>http://yoursite.com/2019/11/15/my-first-blog/</id>
-    <published>2019-11-15T09:54:02.000Z</published>
-    <updated>2019-11-16T02:30:33.198Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="NMSL"><a href="#NMSL" class="headerlink" title="NMSL"></a>NMSL</h2>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;NMSL&quot;&gt;&lt;a href=&quot;#NMSL&quot; class=&quot;headerlink&quot; title=&quot;NMSL&quot;&gt;&lt;/a&gt;NMSL&lt;/h2&gt;
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>
