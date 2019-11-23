@@ -6,7 +6,9 @@
     <content><![CDATA[<p>普通文本<br>普通文本后面加两个空格可以实现换行<br>如果没有则不会换行</p>
 <p>或者两个回车也可以</p>
 <a id="more"></a>
-
+<blockquote>
+<p>hexo的“阅读更多按钮”需要使用此代码</p>
+</blockquote>
 <h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><p><strong>加粗</strong></p>
 <p><em>斜体</em></p>
 <p><strong><em>斜体加粗</em></strong></p>
@@ -17,8 +19,12 @@
 <p>嵌套引用</p>
 </blockquote>
 </blockquote>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 已完成项目，里面是英文x</li>
+<li><input disabled="" type="checkbox"> 未完成项目，里面是空格</li>
+</ul>
 <hr>
-<p>分割线</p>
+<p>分割线（三个及以上*）</p>
 <ul>
 <li>无序列表一</li>
 </ul>
@@ -83,15 +89,16 @@
 </blockquote>
 <p><img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=702257389,1274025419&fm=27&gp=0.jpg" alt="blockchain" title="区块链"></p>
 <blockquote>
-<p>上文中的“区块链”，是鼠标悬停在图片上时显示的字</p>
+<p>上文中的“区块链”，是鼠标悬停在图片上时显示的字，可不写</p>
 </blockquote>
 <blockquote>
-<p><del>“blockchain”还不确定是什么</del></p>
+<p>“blockchain”图片不能显示时显示的文本，可不写</p>
 </blockquote>
+<p><img src="%5Cimages%5CMarkDownCode%5Calipay.png" alt=""></p>
 <blockquote>
-<p>经测试没啥卵用</p>
+<p>本地图片插入方式</p>
 </blockquote>
-<p><a href="www.baidu.com">超链接-百度</a></p>
+<p><a href="https://www.baidu.com" target="_blank" rel="noopener">超链接-百度</a></p>
 <blockquote>
 <p>以下是单行代码,用两边用“ ` ”包括，就是英文输入法下的~那个键</p>
 </blockquote>
@@ -100,19 +107,10 @@
 <p>以下是多行代码,两边用三个“ ` ”包括，且单独占一行，第一行可标注什么语言</p>
 </blockquote>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line">System.out.println(<span class="string">"Hello World!"</span>);</span><br><span class="line">System.out.println(<span class="string">"Hello World!"</span>);</span><br><span class="line">System.out.println(<span class="string">"Hello World!"</span>);</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p><del>以下是流程图</del></p>
-</blockquote>
-<blockquote>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;st=&gt;start: 开始</span><br><span class="line">&gt;op=&gt;operation: My Operation</span><br><span class="line">&gt;cond=&gt;condition: Yes or No?</span><br><span class="line">&gt;e=&gt;end</span><br><span class="line">&gt;st-&gt;op-&gt;cond</span><br><span class="line">&gt;cond(yes)-&gt;e</span><br><span class="line">&gt;cond(no)-&gt;op</span><br><span class="line">&gt;&amp; </span><br></pre></td></tr></table></figure>
-</blockquote>
+
 <blockquote>
 <p>hexo经测试不支持流程图</p>
 </blockquote>
-<blockquote>
-<p><del>这是一句行内公式 $ y = x + 1 $ , 以下是整行公式：</del></p>
-</blockquote>
-<p>$$ a^2 + b^2 = c^2 $$</p>
 <blockquote>
 <p>hexo经测试不支持数学公式</p>
 </blockquote>
@@ -123,6 +121,7 @@
       <tags>
         <tag>MarkDown</tag>
         <tag>博客</tag>
+        <tag>学习</tag>
       </tags>
   </entry>
 </search>
