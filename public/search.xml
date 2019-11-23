@@ -1,169 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>README</title>
-    <url>/2019/11/17/README/</url>
-    <content><![CDATA[<h1 id="基于-Hexo-NexT-5-的一款主题"><a href="#基于-Hexo-NexT-5-的一款主题" class="headerlink" title="基于 Hexo NexT 5 的一款主题"></a>基于 Hexo NexT 5 的一款主题</h1><p><strong>效果预览</strong></p>
-<ul>
-<li>网站截图：<a href="https://github.com/leafjame/hexo-theme-next5-leaf/blob/master/README.pic.md" target="_blank" rel="noopener">传送门 1</a></li>
-<li>站点地址：<a href="https://leafjame.github.io" target="_blank" rel="noopener">传送门 2</a></li>
-</ul>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>&emsp;&emsp;网上有很多关于 github pages 博客搭建的文章，使用的比较多的是 jekyll、hexo。 github 官方推荐的是前者，经过比较，本人选择了 hexo，因为有许多人推崇的一款主题：next。</p>
-<p>clone 后一顿魔改，效果自己看着还算可以，在这 share 出来，欢迎 star、fork ！如有疑问，请提 issue 或在博客给我反馈。</p>
+    <title>MarkDown语法的简单记录</title>
+    <url>/2019/11/21/MarkDownCode/</url>
+    <content><![CDATA[<p>普通文本<br>普通文本后面加两个空格可以实现换行<br>如果没有则不会换行</p>
+<p>或者两个回车也可以</p>
 <a id="more"></a>
 
-<h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><blockquote>
-<p>以下功能网上一搜一大把，不过还是为大家整理了下本博客的情况，who care（皮一下~）！</p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><p><strong>加粗</strong></p>
+<p><em>斜体</em></p>
+<p><strong><em>斜体加粗</em></strong></p>
+<p><del>删除线</del></p>
+<blockquote>
+<p>引用</p>
+<blockquote>
+<p>嵌套引用</p>
 </blockquote>
-<p><strong>已完成（v1.0）：</strong><br><br/></p>
+</blockquote>
+<hr>
+<p>分割线</p>
 <ul>
-<li><input checked="" disabled="" type="checkbox"> 主页布局、颜色搭配</li>
-<li><input checked="" disabled="" type="checkbox"> 全局字体设置（思源宋体）</li>
-<li><input checked="" disabled="" type="checkbox"> 动态背景图片</li>
-<li><input checked="" disabled="" type="checkbox"> 随机三角丝带</li>
-<li><input checked="" disabled="" type="checkbox"> 鼠标点击特效 (4种)</li>
-<li><input checked="" disabled="" type="checkbox"> 文章虚拟背景</li>
-<li><input checked="" disabled="" type="checkbox"> 文章置顶、精品</li>
-<li><input checked="" disabled="" type="checkbox"> 文章排行榜（热榜）</li>
-<li><input checked="" disabled="" type="checkbox"> 文章浏览、字数、时长</li>
-<li><input checked="" disabled="" type="checkbox"> APlayer 音乐播放器</li>
-<li><input checked="" disabled="" type="checkbox"> DPlayer 视频播放器</li>
-<li><input checked="" disabled="" type="checkbox"> 看板娘</li>
-<li><input checked="" disabled="" type="checkbox"> SEO 相关</li>
-<li><input checked="" disabled="" type="checkbox"> CDN 相关</li>
-<li><input checked="" disabled="" type="checkbox"> 个性化返回顶部</li>
-<li><input checked="" disabled="" type="checkbox"> fork me from github</li>
-<li><input checked="" disabled="" type="checkbox"> 博主头像旋转</li>
-<li><input checked="" disabled="" type="checkbox"> 友链及相关链接页面</li>
-<li><input checked="" disabled="" type="checkbox"> 近期文章推荐</li>
-<li><input checked="" disabled="" type="checkbox"> 网站运行时间</li>
-<li><input checked="" disabled="" type="checkbox"> 网站访问人数、访问量</li>
-<li><input checked="" disabled="" type="checkbox"> 阅读全文样式</li>
-<li><input checked="" disabled="" type="checkbox"> DaoVoice 在线聊天</li>
-<li><input checked="" disabled="" type="checkbox"> TiDio 在线聊天</li>
-<li><input checked="" disabled="" type="checkbox"> 来必力评论系统</li>
-<li><input checked="" disabled="" type="checkbox"> Valine 评论系统</li>
-<li><input checked="" disabled="" type="checkbox"> abbrlink 文章永久链接</li>
-<li><input checked="" disabled="" type="checkbox"> neat 压缩</li>
-<li><input checked="" disabled="" type="checkbox"> 文章版权信息</li>
-<li><input checked="" disabled="" type="checkbox"> 代码块样式</li>
-<li><input checked="" disabled="" type="checkbox"> 代码块复制</li>
-<li><input checked="" disabled="" type="checkbox"> 阅读结束提醒</li>
-<li><input checked="" disabled="" type="checkbox"> 打赏</li>
-<li><input checked="" disabled="" type="checkbox"> 百度分享</li>
-<li><input checked="" disabled="" type="checkbox"> 评论区打字特效</li>
-<li><input checked="" disabled="" type="checkbox"> 页面反馈<br/>
-
+<li>无序列表一</li>
+</ul>
+<ul>
+<li>无序列表二</li>
+</ul>
+<ul>
+<li>无序列表三</li>
+</ul>
+<ol>
+<li>有序列表</li>
+<li>有序列表跟数字无关</li>
+</ol>
+<ul>
+<li>无序列表<ul>
+<li>无序列表嵌套 需要前面加两个空格<ul>
+<li>再嵌套一层<ul>
+<li>再来一层</li>
+</ul>
 </li>
 </ul>
-<p><strong>20190925 新增以下功能（v2.0）：</strong><br><br/></p>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> 手机端样式适配</li>
-<li><input checked="" disabled="" type="checkbox"> 代码块 Mac panel 特效</li>
-<li><input checked="" disabled="" type="checkbox"> LeanCloud 切换国际版</li>
-<li><input checked="" disabled="" type="checkbox"> 接入 Google AdSense 广告</li>
-<li><input checked="" disabled="" type="checkbox"> 新增 ShareJs 分享</li>
-<li><input checked="" disabled="" type="checkbox"> 类知乎卡片链接样式</li>
-<li><input checked="" disabled="" type="checkbox"> Valine-Admin 评论系统</li>
-<li><input checked="" disabled="" type="checkbox"> Valine-Admin 邮件通知</li>
-<li><input checked="" disabled="" type="checkbox"> 相关文章推荐</li>
-<li><input checked="" disabled="" type="checkbox"> 标签样式调整</li>
-<li><input checked="" disabled="" type="checkbox"> 标签页自定义样式（4种）</li>
-<li><input checked="" disabled="" type="checkbox"> 分类页自定义样式（2种）</li>
-<li><input checked="" disabled="" type="checkbox"> 归档页自定义样式</li>
-<li><input checked="" disabled="" type="checkbox"> 鼠标样式</li>
-<li><input checked="" disabled="" type="checkbox"> 主页走马灯（轮播图）</li>
-<li><input checked="" disabled="" type="checkbox"> 瀑布流相册</li>
-<li><input checked="" disabled="" type="checkbox"> canvas 粒子时钟</li>
-<li><input checked="" disabled="" type="checkbox"> 豆瓣读书、电影</li>
-<li><input checked="" disabled="" type="checkbox"> 页面其它特效</li>
-</ul>
-<p>…<br></br></p>
-<p><strong>进行中（v2.1）：</strong><br><br/></p>
-<ul>
-<li><input disabled="" type="checkbox"> Service Worker：离线访问功能</li>
-<li><input disabled="" type="checkbox"> PWA（Progressive Web App）：将网站安装到桌面(PC、移动)</li>
-<li><input disabled="" type="checkbox"> 网站运行时间 DIY</li>
-<li><input disabled="" type="checkbox"> 访问量 DIY</li>
-<li><input disabled="" type="checkbox"> 文章首字下沉效果</li>
-<li><input disabled="" type="checkbox"> 绚丽彩虹播放器</li>
-<li><input disabled="" type="checkbox"> 炫彩 logo</li>
-<li><input disabled="" type="checkbox"> 旋转魔方（2种）</li>
-<li><input disabled="" type="checkbox"> 浏览器 Console 个性化输出</li>
-<li><input disabled="" type="checkbox"> 邮件订阅功能</li>
-<li><input disabled="" type="checkbox"> 。。。</li>
-<li><input disabled="" type="checkbox"> 。。。</li>
-</ul>
-<p>…<br></br></p>
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><ol>
-<li><p>Download ZIP 解压后，放到 hexo 目录 themes 主题下即可。或者使用 git 命令，进入到本地 hexo 目录：</p>
- <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/leafjame/hexo-theme-next5-leaf.git themes/leaf</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>将其放到 themes 目录下，名字自定义。然后在站点的配置文件 _config.yml 中指定所使用的 theme：</p>
- <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">theme: leaf</span><br></pre></td></tr></table></figure>
-<p>PS：如需 clone 指定 tag 版本，可以使用 <code>git clone --branch &lt;tag_name&gt; &lt;repo_url&gt; &lt;local_path&gt;</code> 命令，如：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git clone --branch v1.0 https://github.com/leafjame/hexo-theme-next5-leaf.git themes/leaf</span><br></pre></td></tr></table></figure>
-
+</ul>
+</li>
+</ul>
+<ol>
+<li><p>有序列表</p>
+<ol>
+<li>有序列表嵌套</li>
+<li>前面需要有三个空格</li>
+<li>而且需要和上一层之间有一个回车（我也不知道对不对）</li>
+</ol>
+</li>
+<li><p>有序列表</p>
+<ol start="2">
+<li>为什么有序嵌套序号是跟前面一样的？</li>
+<li>然后就有序了</li>
+</ol>
 </li>
 </ol>
-<h3 id="依赖插件"><a href="#依赖插件" class="headerlink" title="依赖插件"></a>依赖插件</h3><ul>
-<li><p>插件列表</p>
-<p>本主题中在搭建过程中，集成了一定的插件，所列部分如下：</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="string">"hexo-abbrlink"</span>: <span class="string">"^2.0.5"</span>,   <span class="comment">//生成文章唯一URL插件</span></span><br><span class="line"><span class="string">"hexo-baidu-url-submit"</span>: <span class="string">"0.0.6"</span>,  <span class="comment">//url提交插件，用于seo</span></span><br><span class="line"><span class="string">"hexo-deployer-git"</span>: <span class="string">"^1.0.0"</span>,  <span class="comment">//git插件，用于部署</span></span><br><span class="line"><span class="string">"hexo-douban"</span>: <span class="string">"^1.1.3"</span>, <span class="comment">//豆瓣读书、电影插件</span></span><br><span class="line"><span class="string">"hexo-generator-baidu-sitemap"</span>: <span class="string">"^0.1.6"</span>,  <span class="comment">//百度sitemap，用于seo</span></span><br><span class="line"><span class="string">"hexo-generator-sitemap"</span>: <span class="string">"^1.2.0"</span>,  <span class="comment">// 同上</span></span><br><span class="line"><span class="string">"hexo-generator-feed"</span>: <span class="string">"^1.2.2"</span>,  <span class="comment">// SSR插件</span></span><br><span class="line"><span class="string">"hexo-generator-index-pin-top"</span>: <span class="string">"^0.2.2"</span>,  <span class="comment">//用于指定文章置顶</span></span><br><span class="line"><span class="string">"hexo-generator-search"</span>: <span class="string">"^2.4.0"</span>,  <span class="comment">//本地搜索插件</span></span><br><span class="line"><span class="string">"hexo-neat"</span>: <span class="string">"^1.0.4"</span>,  <span class="comment">// 压缩js、css代码的插件</span></span><br><span class="line"><span class="string">"hexo-permalink-pinyin"</span>: <span class="string">"^1.1.0"</span>,  <span class="comment">// 中文链接转拼音的插件</span></span><br><span class="line"><span class="string">"hexo-related-popular-posts"</span>: <span class="string">"^3.0.6"</span>,  <span class="comment">// 相关文章推荐</span></span><br><span class="line"><span class="string">"hexo-renderer-ejs"</span>: <span class="string">"^0.3.1"</span>,  <span class="comment">// 是不是自带的？。。。</span></span><br><span class="line"><span class="string">"hexo-renderer-marked"</span>: <span class="string">"^1.0.1"</span>,  <span class="comment">// 是不是自带的？。。。</span></span><br><span class="line"><span class="string">"hexo-renderer-stylus"</span>: <span class="string">"^0.3.3"</span>,  <span class="comment">// 是不是自带的？。。。</span></span><br><span class="line"><span class="string">"hexo-symbols-count-time"</span>: <span class="string">"^0.6.0"</span>,  <span class="comment">// 站点字数统计</span></span><br><span class="line"><span class="string">"hexo-tag-cloud"</span>: <span class="string">"^2.1.1"</span>,  <span class="comment">//标签云</span></span><br><span class="line"><span class="string">"hexo-tag-dplayer"</span>: <span class="string">"^0.3.3"</span>,  <span class="comment">//dplayer视频插件</span></span><br><span class="line"><span class="string">"hexo-wordcount"</span>: <span class="string">"^6.0.1"</span>,  <span class="comment">// 字数统计插件</span></span><br><span class="line"><span class="string">"webpack-cli"</span>: <span class="string">"^3.3.7"</span>,  <span class="comment">// 装hexo-abbrlink时提示装的，按需下载</span></span><br><span class="line"><span class="string">"@webpack-cli/init"</span>: <span class="string">"^0.2.2"</span>,  <span class="comment">// 同上</span></span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th align="left">表头</th>
+<th align="center">表头</th>
+<th align="right">表头</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">内容</td>
+<td align="center">内容</td>
+<td align="right">内容</td>
+</tr>
+<tr>
+<td align="left">内容</td>
+<td align="center">内容</td>
+<td align="right">内容</td>
+</tr>
+</tbody></table>
 <blockquote>
-<p>所装插件信息位于站点根目录的 package.json 文件，核对一下自己是否已经装过。</p>
+<p>第二行是表格格式声明，一个“-”就可以,右边加“:”说明文字右对齐，左边加是左对齐，两边都加说明居中</p>
 </blockquote>
-</li>
-<li><p>安装命令</p>
-<p>在站点根目录下，使用：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install --save-dev hexo-neat</span><br></pre></td></tr></table></figure>
-
-<p>即可安装 hexo-neat 插件，其他的插件安装方式类似。默认是安装最新版，如要指定版本号，可使用：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install --save-dev hexo-neat@1.0.4</span><br></pre></td></tr></table></figure>
-
-</li>
-</ul>
-<h3 id="配置文件"><a href="#配置文件" class="headerlink" title="配置文件"></a>配置文件</h3><ul>
-<li><p>next 主题配置文件 _config.yml</p>
-<p>按需配置 valine、leanCloud、busuanzi、tidio、hotjar、轮播图、文章推荐、点击特效、自定义标签等。</p>
-</li>
-<li><p>hexo 站点配置文件 _config.yml</p>
-<p>按需配置 abbrlink、highlight、deploy、douban、hexo-neat 等。</p>
+<p><img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=702257389,1274025419&fm=27&gp=0.jpg" alt="blockchain" title="区块链"></p>
 <blockquote>
-<p>⚠️ 注意：部分功能需注册后方可使用。</p>
+<p>上文中的“区块链”，是鼠标悬停在图片上时显示的字</p>
 </blockquote>
-</li>
-</ul>
-<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>&emsp;&emsp;控制台 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code> 三连，浏览器输入 <code>http://localhost:4000/</code> 即可看到效果！</p>
-<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>&emsp;&emsp;附上完整版<strong>站点配置文件</strong>，供大家参考 &#x261f;&#x261f;</p>
-<figure class="highlight"><table><tr><td class="code"><pre><span class="line"># Hexo Configuration</span><br><span class="line">## Docs: https://hexo.io/docs/configuration.html</span><br><span class="line">## Source: https://github.com/hexojs/hexo/</span><br><span class="line"></span><br><span class="line"># Site</span><br><span class="line">title: Leaf<span class="string">'s Blog</span></span><br><span class="line"><span class="string">subtitle: 因心造境，风云由我！</span></span><br><span class="line"><span class="string">signature: 人在江湖，生不由己</span></span><br><span class="line"><span class="string">description: 人在江湖，生不由己，出来混，迟早是要还的!</span></span><br><span class="line"><span class="string">keywords: leafjame 北宸 Java 程序员 北漂</span></span><br><span class="line"><span class="string">author: 北宸</span></span><br><span class="line"><span class="string">language: zh-Hans</span></span><br><span class="line"><span class="string">timezone:</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string"># URL</span></span><br><span class="line"><span class="string">## If your site is put in a subdirectory, set url as '</span>http:<span class="comment">//yoursite.com/child' and root as '/child/'</span></span><br><span class="line">url: http:<span class="comment">//leafjame.github.io</span></span><br><span class="line">root: <span class="regexp">/</span></span><br><span class="line">#permalink: :year/:month/:day/:title/ #对搜索引擎是十分不友好的</span><br><span class="line">#permalink: :title.html</span><br><span class="line">permalink: posts/:abbrlink.html  # 此处可以自己设置，也可以直接使用 :/abbrlink</span><br><span class="line">permalink_defaults:</span><br><span class="line"></span><br><span class="line"># 文章链接唯一永久化</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32  #算法： crc16(default) and crc32</span><br><span class="line">  rep: dec    #进制： dec(default) and hex</span><br><span class="line"></span><br><span class="line">baidu_url_submit:</span><br><span class="line">  count: 6 ## 比如3，代表提交最新的三个链接</span><br><span class="line">  host: https:<span class="comment">//leafjame.github.io ## 在百度站长平台中注册的域名</span></span><br><span class="line">  token: XXXXXX ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!</span><br><span class="line">  path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># Directory</span><br><span class="line">source_dir: source</span><br><span class="line">public_dir: public</span><br><span class="line">tag_dir: tags</span><br><span class="line">archive_dir: archives</span><br><span class="line">category_dir: categories</span><br><span class="line">code_dir: downloads/code</span><br><span class="line">i18n_dir: :lang</span><br><span class="line">#skip_render:</span><br><span class="line"></span><br><span class="line">skip_render: README.md</span><br><span class="line"></span><br><span class="line"># Writing</span><br><span class="line">#https://hexo.io/zh-cn/docs/writing</span><br><span class="line">#new_post_name: :year-:month-:day-:title.md #方便已日期来管理文章</span><br><span class="line">new_post_name: :title.md # File name of new posts</span><br><span class="line">default_layout: post</span><br><span class="line">titlecase: false # Transform title into titlecase</span><br><span class="line">external_link: true # Open external links in new tab</span><br><span class="line">filename_case: <span class="number">0</span></span><br><span class="line">render_drafts: <span class="literal">false</span></span><br><span class="line">post_asset_folder: <span class="literal">false</span></span><br><span class="line">relative_link: <span class="literal">false</span></span><br><span class="line">future: <span class="literal">true</span></span><br><span class="line">highlight:</span><br><span class="line">  enable: <span class="literal">true</span></span><br><span class="line">  line_number: <span class="literal">true</span></span><br><span class="line">  auto_detect: <span class="literal">true</span></span><br><span class="line">  tab_replace:</span><br><span class="line">  </span><br><span class="line"># Home page setting</span><br><span class="line"># path: Root path for your blogs index page. (default = '')</span><br><span class="line"># per_page: Posts displayed per page. (0 = disable pagination)</span><br><span class="line"># order_by: Posts order. (Order by date descending by default)</span><br><span class="line">index_generator:</span><br><span class="line">  path: <span class="string">''</span></span><br><span class="line">  per_page: <span class="number">10</span></span><br><span class="line">  order_by: -date</span><br><span class="line">  </span><br><span class="line"># Category &amp; Tag</span><br><span class="line">default_category: uncategorized</span><br><span class="line">category_map:</span><br><span class="line">tag_map:</span><br><span class="line"></span><br><span class="line"># Date / Time format</span><br><span class="line">## Hexo uses Moment.js to parse and display date</span><br><span class="line">## You can customize the date format as defined in</span><br><span class="line">## http://momentjs.com/docs/#/displaying/format/</span><br><span class="line">date_format: YYYY-MM-DD</span><br><span class="line">time_format: HH:mm:ss</span><br><span class="line"></span><br><span class="line"># Pagination</span><br><span class="line">## Set per_page to 0 to disable pagination</span><br><span class="line">per_page: <span class="number">10</span></span><br><span class="line">pagination_dir: page</span><br><span class="line"></span><br><span class="line"># Extensions</span><br><span class="line">## Plugins: https://hexo.io/plugins/</span><br><span class="line">## Themes: https://hexo.io/themes/</span><br><span class="line">#theme: landscape</span><br><span class="line">theme: next</span><br><span class="line"></span><br><span class="line">Plugins:</span><br><span class="line">- hexo-generator-baidu-sitemap</span><br><span class="line">- hexo-generator-sitemap</span><br><span class="line"></span><br><span class="line">baidusitemap:</span><br><span class="line">  path: baidusitemap.xml</span><br><span class="line">sitemap:</span><br><span class="line">  path: sitemap.xml</span><br><span class="line"></span><br><span class="line"># Deployment</span><br><span class="line">## Docs: https://hexo.io/docs/deployment.html</span><br><span class="line">deploy:</span><br><span class="line">- type: git</span><br><span class="line">  repository: </span><br><span class="line">            github: https:<span class="comment">//github.com/leafjame/leafjame.github.io.git</span></span><br><span class="line">            gitee: https:<span class="comment">//gitee.com/leafjame/leafjame.git</span></span><br><span class="line">  branch: master</span><br><span class="line"></span><br><span class="line">- type: baidu_url_submitter</span><br><span class="line"></span><br><span class="line"># Search</span><br><span class="line">search:</span><br><span class="line">  path: ./public/search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: <span class="number">10000</span></span><br><span class="line"></span><br><span class="line"># feed</span><br><span class="line"># Dependencies: https://github.com/hexojs/hexo-generator-feed</span><br><span class="line">feed:</span><br><span class="line">  type: atom</span><br><span class="line">  path: atom.xml</span><br><span class="line">  limit: <span class="number">20</span></span><br><span class="line">  hub:</span><br><span class="line">  content:</span><br><span class="line"></span><br><span class="line"># https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md</span><br><span class="line">permalink_pinyin:</span><br><span class="line">  enable: <span class="literal">false</span></span><br><span class="line">  separator: '-' # default: '-'</span><br><span class="line"></span><br><span class="line"># https://blog.csdn.net/lewky_liu/article/details/82432003</span><br><span class="line"># https://github.com/rozbo/hexo-neat</span><br><span class="line">neat_enable: <span class="literal">true</span></span><br><span class="line"># 压缩html</span><br><span class="line">neat_html:</span><br><span class="line">  enable: <span class="literal">true</span></span><br><span class="line">  exclude:</span><br><span class="line"># 压缩css</span><br><span class="line">neat_css:</span><br><span class="line">  enable: <span class="literal">true</span></span><br><span class="line">  exclude:</span><br><span class="line">  - <span class="string">'**/*.min.css'</span></span><br><span class="line">  - <span class="string">'**/needsharebutton.css'</span></span><br><span class="line"># 压缩js</span><br><span class="line">neat_js:</span><br><span class="line">  enable: <span class="literal">true</span></span><br><span class="line">  mangle: <span class="literal">true</span></span><br><span class="line">  output:</span><br><span class="line">  compress:</span><br><span class="line">  exclude:</span><br><span class="line">  - <span class="string">'**/*.min.js'</span></span><br><span class="line">  - <span class="string">'**/jquery.fancybox.pack.js'</span></span><br><span class="line">  - <span class="string">'**/index.js'</span></span><br><span class="line">  - <span class="string">'**/waifu-tips.js'</span></span><br><span class="line">  - <span class="string">'**/iframe.js'</span></span><br><span class="line">  - <span class="string">'**/fireworks.js'</span></span><br><span class="line">  </span><br><span class="line"># https://github.com/mythsman/hexo-douban</span><br><span class="line">douban:</span><br><span class="line">  user: your_id</span><br><span class="line">  builtin: false  #否将生成页面的功能嵌入hexo s和hexo g中(false则需要使用hexo douban命令)</span><br><span class="line">  book:</span><br><span class="line">    title: '读书系列' # 该页面的标题</span><br><span class="line">    quote: '书山有路勤为径，学海无涯苦作舟' # 写在页面开头的一段话,支持html语法.</span><br><span class="line">  movie:</span><br><span class="line">    title: <span class="string">'观影系列'</span></span><br><span class="line">    quote: <span class="string">'Life was like a box of chocolates, you never know what you’re going to get'</span></span><br><span class="line">  timeout: 10000 # 爬取数据的超时时间</span><br></pre></td></tr></table></figure>
-]]></content>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2019/11/15/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<a id="more"></a>
-
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<blockquote>
+<p><del>“blockchain”还不确定是什么</del></p>
+</blockquote>
+<blockquote>
+<p>经测试没啥卵用</p>
+</blockquote>
+<p><a href="www.baidu.com">超链接-百度</a></p>
+<blockquote>
+<p>以下是单行代码,用两边用“ ` ”包括，就是英文输入法下的~那个键</p>
+</blockquote>
+<p><code>System.out.println(&quot;Hello World!&quot;);</code></p>
+<blockquote>
+<p>以下是多行代码,两边用三个“ ` ”包括，且单独占一行，第一行可标注什么语言</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">System.out.println(<span class="string">"Hello World!"</span>);</span><br><span class="line">System.out.println(<span class="string">"Hello World!"</span>);</span><br><span class="line">System.out.println(<span class="string">"Hello World!"</span>);</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p><del>以下是流程图</del></p>
+</blockquote>
+<blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;st=&gt;start: 开始</span><br><span class="line">&gt;op=&gt;operation: My Operation</span><br><span class="line">&gt;cond=&gt;condition: Yes or No?</span><br><span class="line">&gt;e=&gt;end</span><br><span class="line">&gt;st-&gt;op-&gt;cond</span><br><span class="line">&gt;cond(yes)-&gt;e</span><br><span class="line">&gt;cond(no)-&gt;op</span><br><span class="line">&gt;&amp; </span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>hexo经测试不支持流程图</p>
+</blockquote>
+<blockquote>
+<p><del>这是一句行内公式 $ y = x + 1 $ , 以下是整行公式：</del></p>
+</blockquote>
+<p>$$ a^2 + b^2 = c^2 $$</p>
+<blockquote>
+<p>hexo经测试不支持数学公式</p>
+</blockquote>
 ]]></content>
       <categories>
-        <category>云服务器</category>
+        <category>MarkDown</category>
       </categories>
       <tags>
-        <tag>centOS</tag>
-        <tag>tomcat</tag>
+        <tag>MarkDown</tag>
+        <tag>博客</tag>
       </tags>
   </entry>
 </search>
