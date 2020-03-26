@@ -94,11 +94,13 @@
 <blockquote>
 <p>“blockchain”图片不能显示时显示的文本，可不写</p>
 </blockquote>
-<p><img src="%5Cimages%5CMarkDownCode%5Calipay.png" alt=""></p>
 <blockquote>
-<p>本地图片插入方式</p>
+<p>本地图片插入不可使用</p>
 </blockquote>
 <p><a href="https://www.baidu.com" target="_blank" rel="noopener">超链接-百度</a></p>
+<blockquote>
+<p>前面需要使用http，不然不会跳转</p>
+</blockquote>
 <blockquote>
 <p>以下是单行代码,用两边用“ ` ”包括，就是英文输入法下的~那个键</p>
 </blockquote>
@@ -116,7 +118,7 @@
 </blockquote>
 ]]></content>
       <categories>
-        <category>MarkDown</category>
+        <category>-MarkDown -学习</category>
       </categories>
       <tags>
         <tag>MarkDown</tag>

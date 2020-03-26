@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-23T15:05:11.230Z</updated>
+  <updated>2020-03-26T13:02:31.708Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2019/11/21/MarkDownCode/"/>
     <id>http://yoursite.com/2019/11/21/MarkDownCode/</id>
     <published>2019-11-21T15:13:41.882Z</published>
-    <updated>2019-11-23T15:05:11.230Z</updated>
+    <updated>2020-03-26T13:02:31.708Z</updated>
     
     <summary type="html">
     
@@ -31,7 +31,7 @@
     </summary>
     
     
-      <category term="MarkDown" scheme="http://yoursite.com/categories/MarkDown/"/>
+      <category term="-MarkDown -学习" scheme="http://yoursite.com/categories/MarkDown-%E5%AD%A6%E4%B9%A0/"/>
     
     
       <category term="MarkDown" scheme="http://yoursite.com/tags/MarkDown/"/>
